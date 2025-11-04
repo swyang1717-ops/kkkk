@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>옵티드론 테크놀로지 - 최고의 광학 설계 및 드론 탐지 시스템</title>
+    <style>
+        /* 기본 스타일링 */
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 헤더 */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #00aaff;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 30px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        /* 히어로 섹션 */
+        .hero {
+            background: url('https://via.placeholder.com/1920x1080.png/000033/FFFFFF?text=Advanced+Detection+System') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            background-color: #00aaff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* 섹션 공통 스타일 */
+        .section {
+            padding: 80px 0;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+
+        /* 기술 소개 섹션 */
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .tech-item {
+            background-color: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .tech-item h3 {
+            font-size: 1.5em;
+            color: #00aaff;
+            margin-bottom: 15px;
+        }
+
+        /* 제품 소개 섹션 */
+        #products {
+            background-color: #1a1a1a;
+        }
+
+        /* 푸터 */
+        footer {
+            background-color: #000;
+            color: #888;
+            padding: 40px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 헤더 -->
+    <header>
+        <div class="container">
+            <div class="logo">옵티드론 테크놀로지</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">메인</a></li>
+                    <li><a href="#technologies">핵심 기술</a></li>
+                    <li><a href="#products">제품</a></li>
+                    <li><a href="#applications">적용 분야</a></li>
+                    <li><a href="#about">회사 소개</a></li>
+                    <li><a href="#contact">문의하기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>정밀한 광학, 완벽한 탐지</h1>
+            <p>보이지 않는 위협까지 감지하는 최고의 광학 설계 기술과 AI 기반 드론 탐지 시스템으로 가장 안전한 솔루션을 제공합니다.</p>
+            <a href="#contact" class="cta-button">솔루션 문의하기</a>
+        </div>
+    </section>
+
+    <!-- 핵심 기술 섹션 -->
+    <section id="technologies" class="section">
+        <div class="container">
+            <h2>핵심 기술</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h3>초정밀 광학 설계</h3>
+                    <p>나노미터 수준의 정밀도를 자랑하는 렌즈 및 광학 시스템 설계 기술로, 열악한 환경에서도 최상의 해상도와 탐지 성능을 보장합니다.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>다중 센서 융합 드론 탐지</h3>
+                    <p>레이더, RF 스캐너, EO/IR 카메라 등 다중 센서를 융합하여 오탐지를 최소화하고, 소형 드론까지 99.9%의 정확도로 식별 및 추적합니다.</p>
+                </div>
+                <div class="tech-item">
+                    <h3>AI 기반 자동 무력화</h3>
+                    <p>딥러닝 기반 AI가 위협을 자동 분석하고, 재밍, 스푸핑 등 가장 효과적인 무력화 수단을 신속하게 실행하여 위협을 원천 차단합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 제품 섹션 (간략) -->
+    <section id="products" class="section">
+        <div class="container">
+            <h2>대표 제품</h2>
+            <p>고정형부터 차량 탑재형까지, 고객의 환경에 최적화된 드론 탐지 솔루션을 만나보십시오.</p>
+            <!-- 제품 이미 및 설명 추가 영역 -->
+        </div>
+    </section>
+    
+    <!-- 적용 분야 섹션 (간략) -->
+    <section id="applications" class="section">
+        <div class="container">
+            <h2>적용 분야</h2>
+            <p>공항, 원자력 발전소, 국경 등 국가 중요 시설부터 군사 작전까지 광범위한 분야에서 우리의 기술이 안전을 지키고 있습니다.</p>
+             <!-- 적용 분야 아이콘 및 설명 추가 영역 -->
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2025 옵티드론 테크놀로지. All Rights Reserved.</p>
+            <p>주소: 서울특별시 강남구 테헤란로 123 | 전화: 02-1234-5678 | 이메일: contact@optidronetech.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
